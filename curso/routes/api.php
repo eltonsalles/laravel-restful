@@ -36,6 +36,6 @@ Route::middleware('auth:api')->prefix('v1')->group(function () {
     ]);
 });
 
-Route::get('teste_cors', function () {
+Route::get('cors_example', function () {
     return ['status' => 'ok'];
 });

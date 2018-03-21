@@ -169,6 +169,11 @@ return [
         Laravel\Passport\PassportServiceProvider::class,
 
         /*
+         * Barryvdh/laravel-cors
+         */
+        Barryvdh\Cors\ServiceProvider::class,
+
+        /*
          * Package Service Providers...
          */
         Laravel\Tinker\TinkerServiceProvider::class,
